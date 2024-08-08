@@ -1,4 +1,5 @@
 # Brazil-Ecommerce Data
+![olist](https://github.com/user-attachments/assets/2c3f3e6b-f1df-4ff8-92c2-cf562ad5e034)
 
 ### Project Overview : Analysing Brazilain Ecommerce Trends (2016-2018)
 This project aims to delve into the dynamics of the Brazilian ecommerce market between 2016 and 2018. By analyzing a comprehensive dataset, we seek to uncover key trends, consumer behaviors, and market opportunities. The raw data was provided by Quantum Analytics in partial fullfilment of the project phase. This data set contains 9 tables which are Olist_customers, Olist_geolocation, Olist_order_items, Olist_order_payment, Olist_order_reviews, Olist_orders, Olist_products, Olist_sellers, Product_category_name. These tables contain a wide range of information about each order, including the order date, product details, payment and shipping information,customer and seller IDs, customer reviews, sellers who list their products on Olist, as well as data on customer behaviour and demographics. You can check out the data dictionary for description of the tables' contents.
@@ -25,6 +26,8 @@ In the initial data preparation stage, we performed the following tasks
 - Checked the values and data quality to identify missing data, inconsistencies and Outliers.
 - Carried out cross verification checks and logical checks
 - Discovery of insights such as Seasonal Trends,Product performance and consumer behaviours
+![olist payment table](https://github.com/user-attachments/assets/1d38d5de-9c9e-4849-a91e-9eb52bcd0259)
+![olist product data set](https://github.com/user-attachments/assets/0086af4a-89b2-4b75-a486-6d084bcea8e4)
 
 ### Data Cleaning and Vizualisation
 In this stage, the following steps were applied
@@ -38,6 +41,7 @@ Thr data for this analysis is found in different tables as refrences are made ea
 I created a new table that I labelled "Consolidated" which source was Olist_order to Olist_customer and the other tables were connected using the keys such as "order_id", "Seller_id", Customer_id while the geolocation table was connected using the Zip_code_prefix
 
 ### Data Visualization 
+![Brazillan Olist ecommerce website](https://github.com/user-attachments/assets/d103b170-87b7-4f6c-ac34-7f0c2aab5105)
 
 This was done using DAX concepts(Calculated measures, Calculated column,etc), Visuals/Charts,Filters and slicers etc in Power BI
 
